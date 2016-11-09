@@ -8,6 +8,7 @@ package "server" (
 
   requires = "ocsigenserver,
               ocsigenserver.ext,
+              ocsipersist,
               ppx_deriving.runtime,
               js_of_ocaml.deriving,
               react,

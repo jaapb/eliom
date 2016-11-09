@@ -10,7 +10,7 @@ true:keep_locs
 <lib/server/*.ml>:package(js_of_ocaml.ppx)
 
 <lib/server/*.ml{,i}>:thread
-<lib/server/*.ml{,i}>:package(lwt,ocsigenserver,ocsigenserver.ext,tyxml.functor)
+<lib/server/*.ml{,i}>:package(lwt,ocsigenserver,ocsigenserver.ext,tyxml.functor,ocsipersist)
 <lib/server/*.ml{,i}>:package(react,js_of_ocaml)
 
 <lib/server/*.ml{,i}>:package(js_of_ocaml.deriving.ppx)
